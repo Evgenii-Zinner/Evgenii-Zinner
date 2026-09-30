@@ -1,12 +1,19 @@
 # Evgenii Zinner
 
-> **Troubleshooter & Systems Engineer**  
-> First-principles thinker • Stack-agnostic problem solver • Exploring decentralized rails
+Software engineer & troubleshooter.
+
+I think in **system topology rather than rote syntax**. Quizzing me on textbook declarations won't show you much, but drop me into an undocumented, tangled codebase and I’ll map how the pieces interact, isolate where state breaks down, and fix it.
+
+I operate mostly in user-facing and full-stack software, but I never treat the layers underneath as black boxes. Whether it's database query cascades or packet overhead, I build with physical constraints in mind. Leveraging modern AI-augmented workflows, I treat the programming language as an interchangeable lens rather than a barrier.
+
+* **Exploring:** Decentralized protocols and sovereign architectures from the ground up—solving real-world censorship and financial isolation constraints.
+
+---
 
 <p align="left">
   <a href="https://ezinner.com"><img src="https://img.shields.io/badge/Website-ezinner.com-000000?style=flat-square&logo=google-chrome&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/evgenii-zinner"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
-  <a href="https://x.com/evgenii_zinner"><img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" /></a>
+  <a href="https://x.com/EvgeniiZinner"><img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" /></a>
   <a href="https://bsky.app/profile/ezinner.com"><img src="https://img.shields.io/badge/Bluesky-0285FF?style=flat-square&logo=bluesky&logoColor=white" /></a>
   <a href="https://mastodon.social/@evgenii_zinner"><img src="https://img.shields.io/badge/Mastodon-6364FF?style=flat-square&logo=mastodon&logoColor=white" /></a>
   <a href="https://www.facebook.com/evgeniizinner"><img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" /></a>
@@ -16,30 +23,9 @@
 
 ---
 
-### 🧩 How I Approach Problems
-
-I focus on **how systems operate under the hood**, rather than just memorizing frameworks or syntax:
-
-* **Big picture to root cause:** I look at architecture, data flows, and state first. Once the mechanics and failure modes make sense, the code syntax is just implementation detail.
-* **Stack-agnostic:** Frameworks and tools change; core engineering principles don't. I'm comfortable stepping into unfamiliar codebases to trace bugs, isolate bottlenecks, and untangle messy logic.
-* **Troubleshooting mindset:** I gravitate toward diagnosing why complex or legacy setups break and engineering clean, durable fixes.
-
----
-
-### 🌐 Current Focus
-
-* **Decentralized systems & Web3:** Navigating smart contracts and decentralized protocols out of practical necessity (working around traditional banking, SWIFT, and cross-border restrictions). Currently deep in the weeds—figuring out how it all actually works from first principles.
-* **Open to interesting challenges:** Diagnostics, performance bottlenecks, architecture audits, and untangling messy systems.
-
----
-
-### 📊 Activity & Contributions
+### 📊 Contributions & Languages
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Evgenii-Zinner&show_icons=true&theme=github_dark&hide_border=true" height="140" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Evgenii-Zinner&theme=github_dark&hide_border=true" height="140" alt="Contribution Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Evgenii-Zinner&layout=compact&theme=github_dark&hide_border=true&langs_count=6" height="130" alt="Top Languages" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Evgenii-Zinner&theme=github_dark&hide_border=true" height="165" alt="Contribution Streak" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Evgenii-Zinner&layout=compact&theme=github_dark&hide_border=true&langs_count=6" height="165" alt="Top Languages" />
 </p>
