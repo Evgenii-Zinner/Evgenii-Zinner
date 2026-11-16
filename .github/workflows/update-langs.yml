@@ -1,0 +1,31 @@
+name: Update Top Languages
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-langs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate top-langs.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+        run: python3 .github/scripts/update_top_langs.py
+
+      - name: Commit updated SVG if changed
+        run: |
+          if ! git diff --quiet top-langs.svg; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add top-langs.svg
+            git commit -m "chore: update top-langs.svg"
+            git push
+          fi

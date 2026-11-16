@@ -27,5 +27,5 @@ I operate mostly in user-facing and full-stack software, but I never treat the l
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Evgenii-Zinner&theme=github_dark&hide_border=true" height="165" alt="Contribution Streak" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Evgenii-Zinner&layout=compact&theme=github_dark&hide_border=true&langs_count=6" height="165" alt="Top Languages" />
+  <img src="./top-langs.svg" height="165" alt="Top Languages" />
 </p>

@@ -1,0 +1,17 @@
+<svg width="300" height="165" viewBox="0 0 300 165" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Most Used Languages">
+  <style>
+    .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #58a6ff; }
+    .lang-name { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #c9d1d9; }
+  </style>
+  <rect x="0" y="0" width="300" height="165" rx="4.5" fill="#0d1117" />
+  <text x="25" y="35" class="header">Most Used Languages</text>
+  <svg x="25" y="58" width="250" height="8">
+    <clipPath id="bar-clip">
+      <rect x="0" y="0" width="250" height="8" rx="4" />
+    </clipPath>
+    <g clip-path="url(#bar-clip)">
+      <rect x="0.00" y="0" width="156.81" height="8" fill="#00B4AB" /><rect x="156.81" y="0" width="50.96" height="8" fill="#3178c6" /><rect x="207.77" y="0" width="23.03" height="8" fill="#f1e05a" /><rect x="230.80" y="0" width="9.52" height="8" fill="#7355dd" /><rect x="240.32" y="0" width="8.18" height="8" fill="#701516" /><rect x="248.50" y="0" width="1.50" height="8" fill="#663399" />
+    </g>
+  </svg>
+  <g transform="translate(25, 88)"><circle cx="5" cy="-4" r="5" fill="#00B4AB" /><text x="15" y="0" class="lang-name">Dart 62.72%</text></g><g transform="translate(160, 88)"><circle cx="5" cy="-4" r="5" fill="#3178c6" /><text x="15" y="0" class="lang-name">TypeScript 20.38%</text></g><g transform="translate(25, 110)"><circle cx="5" cy="-4" r="5" fill="#f1e05a" /><text x="15" y="0" class="lang-name">JavaScript 9.21%</text></g><g transform="translate(160, 110)"><circle cx="5" cy="-4" r="5" fill="#7355dd" /><text x="15" y="0" class="lang-name">C# 3.81%</text></g><g transform="translate(25, 132)"><circle cx="5" cy="-4" r="5" fill="#701516" /><text x="15" y="0" class="lang-name">Ruby 3.27%</text></g><g transform="translate(160, 132)"><circle cx="5" cy="-4" r="5" fill="#663399" /><text x="15" y="0" class="lang-name">CSS 0.60%</text></g>
+</svg>
