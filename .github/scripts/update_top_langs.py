@@ -20,7 +20,6 @@ query($login: String!) {
       ownerAffiliations: OWNER
       isFork: false
       isArchived: false
-      privacy: PUBLIC
       first: 100
     ) {
       nodes {

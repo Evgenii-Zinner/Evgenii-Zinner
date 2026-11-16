@@ -16,7 +16,7 @@ jobs:
 
       - name: Generate top-langs.svg
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_STATS_TOKEN || secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: ${{ github.repository_owner }}
         run: python3 .github/scripts/update_top_langs.py
 
