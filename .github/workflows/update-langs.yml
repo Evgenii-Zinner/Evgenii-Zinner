@@ -15,10 +15,15 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Generate top-langs.svg
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_STATS_TOKEN || secrets.GITHUB_TOKEN }}
-          GITHUB_USERNAME: ${{ github.repository_owner }}
-        run: python3 .github/scripts/update_top_langs.py
+        uses: Evgenii-Zinner/ez-profile-lang-graphs@v1
+        with:
+          username: ${{ github.repository_owner }}
+          token: ${{ secrets.GH_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          layout: sunburst
+          theme: dark
+          hide_border: true
+          include_private: true
+          output: top-langs.svg
 
       - name: Commit updated SVG if changed
         run: |

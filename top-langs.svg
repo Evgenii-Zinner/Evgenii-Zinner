@@ -1,17 +1,81 @@
-<svg width="300" height="165" viewBox="0 0 300 165" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Most Used Languages">
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="240" viewBox="0 0 540 240">
   <style>
-    .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #58a6ff; }
-    .lang-name { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #c9d1d9; }
+    text { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+    @keyframes fadein {
+      from { opacity: 0; transform: translateY(5px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes arcpop {
+      from { opacity: 0; transform: scale(0.25); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    @keyframes petalpop {
+      from { opacity: 0; transform: scale(0.45); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    .row { opacity: 0; animation: fadein 0.5s ease forwards; }
+    .arc { opacity: 0; transform-origin: 0px 0px; animation: arcpop 0.5s cubic-bezier(0.22, 1, 0.36, 1) forwards; }
+    .petal { opacity: 0; transform-origin: 0px 0px; animation: petalpop 0.55s cubic-bezier(0.22, 1, 0.36, 1) forwards; }
   </style>
-  <rect x="0" y="0" width="300" height="165" rx="4.5" fill="#0d1117" />
-  <text x="25" y="35" class="header">Most Used Languages</text>
-  <svg x="25" y="58" width="250" height="8">
-    <clipPath id="bar-clip">
-      <rect x="0" y="0" width="250" height="8" rx="4" />
-    </clipPath>
-    <g clip-path="url(#bar-clip)">
-      <rect x="0.00" y="0" width="182.44" height="8" fill="#3178c6" /><rect x="182.44" y="0" width="43.61" height="8" fill="#00B4AB" /><rect x="226.04" y="0" width="11.24" height="8" fill="#f1e05a" /><rect x="237.28" y="0" width="6.08" height="8" fill="#663399" /><rect x="243.36" y="0" width="4.17" height="8" fill="#ff5a03" /><rect x="247.53" y="0" width="2.47" height="8" fill="#ff3e00" />
-    </g>
-  </svg>
-  <g transform="translate(25, 88)"><circle cx="5" cy="-4" r="5" fill="#3178c6" /><text x="15" y="0" class="lang-name">TypeScript 72.97%</text></g><g transform="translate(160, 88)"><circle cx="5" cy="-4" r="5" fill="#00B4AB" /><text x="15" y="0" class="lang-name">Dart 17.44%</text></g><g transform="translate(25, 110)"><circle cx="5" cy="-4" r="5" fill="#f1e05a" /><text x="15" y="0" class="lang-name">JavaScript 4.49%</text></g><g transform="translate(160, 110)"><circle cx="5" cy="-4" r="5" fill="#663399" /><text x="15" y="0" class="lang-name">CSS 2.43%</text></g><g transform="translate(25, 132)"><circle cx="5" cy="-4" r="5" fill="#ff5a03" /><text x="15" y="0" class="lang-name">Astro 1.67%</text></g><g transform="translate(160, 132)"><circle cx="5" cy="-4" r="5" fill="#ff3e00" /><text x="15" y="0" class="lang-name">Svelte 0.99%</text></g>
+  <rect x="0.5" y="0.5" width="539" height="239" rx="10" fill="#0d1117" stroke="none"/>
+  <g transform="translate(136, 120)">
+    <circle cx="0" cy="0" r="54" fill="none" stroke="#30363d" stroke-opacity="0.4" stroke-dasharray="2 3" stroke-width="0.9"/>
+    <circle cx="0" cy="0" r="82" fill="none" stroke="#30363d" stroke-opacity="0.4" stroke-dasharray="2 3" stroke-width="0.9"/>
+    <circle cx="0" cy="0" r="110" fill="none" stroke="#30363d" stroke-opacity="0.4" stroke-dasharray="2 3" stroke-width="0.9"/>
+    <line x1="0.0" y1="-20.0" x2="0.0" y2="-110.0" stroke="#30363d" stroke-opacity="0.45" stroke-width="0.9"/>
+    <line x1="19.0" y1="-6.2" x2="104.6" y2="-34.0" stroke="#30363d" stroke-opacity="0.45" stroke-width="0.9"/>
+    <line x1="11.8" y1="16.2" x2="64.7" y2="89.0" stroke="#30363d" stroke-opacity="0.45" stroke-width="0.9"/>
+    <line x1="-11.8" y1="16.2" x2="-64.7" y2="89.0" stroke="#30363d" stroke-opacity="0.45" stroke-width="0.9"/>
+    <line x1="-19.0" y1="-6.2" x2="-104.6" y2="-34.0" stroke="#30363d" stroke-opacity="0.45" stroke-width="0.9"/>
+    <path class="arc" style="animation-delay:0.08s" d="M1.1,-48.896A3,3,0,0,1,4.351,-51.818A52,52,0,0,1,47.937,-20.15A3,3,0,0,1,46.163,-16.156L21.523,-7.533A3,3,0,0,1,17.854,-9.013A20,20,0,0,0,3.054,-19.765A3,3,0,0,1,0.513,-22.798Z" fill="#3178c6" fill-opacity="0.9" stroke="#0d1117" stroke-width="1.2"><title>Web: 80.2%</title></path>
+    <path class="arc" style="animation-delay:0.14s" d="M39.8,-11.949A3,3,0,0,1,43.59,-9.729A44.663,44.663,0,0,1,29.547,33.492A3,3,0,0,1,25.175,33.06L13.815,18.142A3,3,0,0,1,14.089,14.195A20,20,0,0,0,19.742,-3.203A3,3,0,0,1,21.84,-6.557Z" fill="#00b4ab" fill-opacity="0.9" stroke="#0d1117" stroke-width="1.2"><title>Mobile: 18.0%</title></path>
+    <path class="arc" style="animation-delay:0.20s" d="M19.171,27.675A3,3,0,0,1,18.187,31.991A36.8,36.8,0,0,1,-18.187,31.991A3,3,0,0,1,-19.171,27.675L-12.985,18.745A3,3,0,0,1,-9.147,17.786A20,20,0,0,0,9.147,17.786A3,3,0,0,1,12.985,18.745Z" fill="#f74c00" fill-opacity="0.9" stroke="#0d1117" stroke-width="1.2"><title>Systems: 0.4%</title></path>
+    <path class="arc" style="animation-delay:0.26s" d="M-21.349,28.035A3,3,0,0,1,-25.749,28.442A38.366,38.366,0,0,1,-37.549,-7.875A3,3,0,0,1,-33.75,-10.132L-21.84,-6.557A3,3,0,0,1,-19.742,-3.203A20,20,0,0,0,-14.089,14.195A3,3,0,0,1,-13.815,18.142Z" fill="#a371f7" fill-opacity="0.9" stroke="#0d1117" stroke-width="1.2"><title>Backend: 1.4%</title></path>
+    <path class="arc" style="animation-delay:0.32s" d="M-29.997,-10.499A3,3,0,0,1,-31.732,-14.583A34.923,34.923,0,0,1,-4.063,-34.686A3,3,0,0,1,-0.715,-31.773L-0.513,-22.798A3,3,0,0,1,-3.054,-19.765A20,20,0,0,0,-17.854,-9.013A3,3,0,0,1,-21.523,-7.533Z" fill="#6e7681" fill-opacity="0.9" stroke="#0d1117" stroke-width="1.2"><title>Other: 0.0%</title></path>
+    <path class="petal" style="animation-delay:0.22s" d="M3.369,-106.905A3,3,0,0,1,6.546,-109.805A110,110,0,0,1,20.493,-108.074A3,3,0,0,1,22.865,-104.485L12.168,-55.605A3,3,0,0,1,8.752,-53.286A54,54,0,0,0,4.539,-53.809A3,3,0,0,1,1.793,-56.893Z" fill="#3178c6" fill-opacity="0.95" stroke="#0d1117" stroke-width="1.1"><title>TypeScript: 71.0%</title></path>
+    <path class="petal" style="animation-delay:0.25s" d="M17.665,-74.292A3,3,0,0,1,21.391,-76.487A79.422,79.422,0,0,1,29.32,-73.812A3,3,0,0,1,30.955,-69.807L23.074,-52.035A3,3,0,0,1,19.261,-50.448A54,54,0,0,0,15.239,-51.805A3,3,0,0,1,13.167,-55.377Z" fill="#f1e05a" fill-opacity="0.95" stroke="#0d1117" stroke-width="1.1"><title>JavaScript: 3.9%</title></path>
+    <path class="petal" style="animation-delay:0.28s" d="M30.659,-65.912A3,3,0,0,1,34.755,-67.312A75.755,75.755,0,0,1,41.394,-63.446A3,3,0,0,1,42.197,-59.192L33.042,-46.349A3,3,0,0,1,28.988,-45.56A54,54,0,0,0,25.32,-47.696A3,3,0,0,1,24.007,-51.611Z" fill="#663399" fill-opacity="0.95" stroke="#0d1117" stroke-width="1.1"><title>CSS: 2.0%</title></path>
+    <path class="petal" style="animation-delay:0.31s" d="M42.771,-57.769A3,3,0,0,1,47.066,-58.318A74.941,74.941,0,0,1,52.681,-53.301A3,3,0,0,1,52.616,-48.971L41.666,-38.78A3,3,0,0,1,37.537,-38.82A54,54,0,0,0,34.372,-41.648A3,3,0,0,1,33.87,-45.747Z" fill="#ff5a03" fill-opacity="0.95" stroke="#0d1117" stroke-width="1.1"><title>Astro: 1.7%</title></path>
+    <path class="petal" style="animation-delay:0.34s" d="M51.875,-46.568A3,3,0,0,1,56.196,-46.242A72.775,72.775,0,0,1,60.447,-40.526A3,3,0,0,1,59.517,-36.294L48.598,-29.635A3,3,0,0,1,44.56,-30.502A54,54,0,0,0,42.027,-33.908A3,3,0,0,1,42.358,-38.024Z" fill="#ff3e00" fill-opacity="0.95" stroke="#0d1117" stroke-width="1.1"><title>Svelte: 1.0%</title></path>
+    <path class="petal" style="animation-delay:0.37s" d="M58.686,-34.353A3,3,0,0,1,62.854,-33.164A71.067,71.067,0,0,1,65.737,-27.002A3,3,0,0,1,63.979,-23.04L53.554,-19.286A3,3,0,0,1,49.773,-20.945A54,54,0,0,0,47.974,-24.79A3,3,0,0,1,49.123,-28.756Z" fill="#e34c26" fill-opacity="0.95" stroke="#0d1117" stroke-width="1.1"><title>HTML: 0.6%</title></path>
+    <path class="petal" style="animation-delay:0.28s" d="M77.87,-22.616A3,3,0,0,1,81.616,-20.465A84.143,84.143,0,0,1,81.135,22.296A3,3,0,0,1,77.341,24.362L47.282,14.894A3,3,0,0,1,45.272,11.305A46.663,46.663,0,0,0,45.515,-10.284A3,3,0,0,1,47.605,-13.826Z" fill="#00B4AB" fill-opacity="0.95" stroke="#0d1117" stroke-width="1.1"><title>Dart: 17.6%</title></path>
+    <path class="petal" style="animation-delay:0.31s" d="M55.863,18.708A3,3,0,0,1,57.703,22.649A61.989,61.989,0,0,1,40.439,46.982A3,3,0,0,1,36.112,46.547L30.386,39.167A3,3,0,0,1,30.778,35.073A46.663,46.663,0,0,0,43.271,17.464A3,3,0,0,1,47.006,15.742Z" fill="#A97BFF" fill-opacity="0.95" stroke="#0d1117" stroke-width="1.1"><title>Kotlin: 0.3%</title></path>
+    <path class="petal" style="animation-delay:0.34s" d="M28.372,41.756A3,3,0,0,1,27.427,46.019A53.572,53.572,0,0,1,19.436,49.922A3,3,0,0,1,15.492,48.047L12.794,39.68A3,3,0,0,1,14.526,35.978A38.8,38.8,0,0,0,19.446,33.575A3,3,0,0,1,23.431,34.484Z" fill="#f34b7d" fill-opacity="0.95" stroke="#0d1117" stroke-width="1.1"><title>C++: 0.3%</title></path>
+    <path class="petal" style="animation-delay:0.37s" d="M14.148,46.743A3,3,0,0,1,11.968,50.531A51.929,51.929,0,0,1,3.65,51.801A3,3,0,0,1,0.44,48.835L0.375,41.69A3,3,0,0,1,3.133,38.673A38.8,38.8,0,0,0,8.546,37.847A3,3,0,0,1,12.078,39.904Z" fill="#DA3434" fill-opacity="0.95" stroke="#0d1117" stroke-width="1.1"><title>CMake: 0.1%</title></path>
+    <path class="petal" style="animation-delay:0.40s" d="M-0.412,45.722A3,3,0,0,1,-3.635,48.686A48.822,48.822,0,0,1,-11.054,47.554A3,3,0,0,1,-13.246,43.763L-12.078,39.904A3,3,0,0,1,-8.546,37.847A38.8,38.8,0,0,0,-3.133,38.673A3,3,0,0,1,-0.375,41.69Z" fill="#555555" fill-opacity="0.95" stroke="#0d1117" stroke-width="1.1"><title>C: 0.0%</title></path>
+    <path class="petal" style="animation-delay:0.43s" d="M-13.801,42.803A3,3,0,0,1,-17.765,44.67A48.073,48.073,0,0,1,-24.311,41.473A3,3,0,0,1,-25.275,37.198L-23.431,34.484A3,3,0,0,1,-19.446,33.575A38.8,38.8,0,0,0,-14.526,35.978A3,3,0,0,1,-12.794,39.68Z" fill="#5686a5" fill-opacity="0.95" stroke="#0d1117" stroke-width="1.1"><title>GLSL: 0.0%</title></path>
+    <path class="petal" style="animation-delay:0.40s" d="M-33.752,43.506A3,3,0,0,1,-38.088,43.934A58.145,58.145,0,0,1,-54.049,21.437A3,3,0,0,1,-52.213,17.486L-41.022,13.738A3,3,0,0,1,-37.298,15.436A40.366,40.366,0,0,0,-26.89,30.105A3,3,0,0,1,-26.518,34.181Z" fill="#7355dd" fill-opacity="0.95" stroke="#0d1117" stroke-width="1.1"><title>C#: 0.8%</title></path>
+    <path class="petal" style="animation-delay:0.43s" d="M-52.034,16.391A3,3,0,0,1,-55.842,14.272A57.637,57.637,0,0,1,-56.149,-13.012A3,3,0,0,1,-52.39,-15.216L-41.545,-12.066A3,3,0,0,1,-39.45,-8.55A40.366,40.366,0,0,0,-39.247,9.435A3,3,0,0,1,-41.263,12.998Z" fill="#701516" fill-opacity="0.95" stroke="#0d1117" stroke-width="1.1"><title>Ruby: 0.6%</title></path>
+    <path class="petal" style="animation-delay:0.46s" d="M-41.897,-14.663A3,3,0,0,1,-43.665,-18.675A47.491,47.491,0,0,1,-4.267,-47.298A3,3,0,0,1,-0.999,-44.378L-0.896,-39.8A3,3,0,0,1,-3.602,-36.747A36.923,36.923,0,0,0,-33.835,-14.781A3,3,0,0,1,-37.575,-13.151Z" fill="#EB8CEB" fill-opacity="0.95" stroke="#0d1117" stroke-width="1.1"><title>XSLT: 0.0%</title></path>
+  </g>
+  <g transform="translate(274, 43)"><g class="row" style="animation-delay:0.15s">
+      <rect width="10" height="10" rx="3" y="-9" fill="#3178c6"/>
+      <text x="18" y="0" font-size="12.5" font-weight="600" fill="#c9d1d9">Web</text>
+      <text x="242" y="0" text-anchor="end" font-size="12.5" font-weight="600" fill="#e6edf3">80.2%</text>
+      <text x="18" y="14" font-size="10.5" fill="#8b949e">TypeScript · JavaScript · CSS · A…</text>
+    </g></g>
+  <g transform="translate(274, 81)"><g class="row" style="animation-delay:0.24s">
+      <rect width="10" height="10" rx="3" y="-9" fill="#00b4ab"/>
+      <text x="18" y="0" font-size="12.5" font-weight="600" fill="#c9d1d9">Mobile</text>
+      <text x="242" y="0" text-anchor="end" font-size="12.5" font-weight="600" fill="#e6edf3">18.0%</text>
+      <text x="18" y="14" font-size="10.5" fill="#8b949e">Dart · Kotlin</text>
+    </g></g>
+  <g transform="translate(274, 119)"><g class="row" style="animation-delay:0.33s">
+      <rect width="10" height="10" rx="3" y="-9" fill="#a371f7"/>
+      <text x="18" y="0" font-size="12.5" font-weight="600" fill="#c9d1d9">Backend</text>
+      <text x="242" y="0" text-anchor="end" font-size="12.5" font-weight="600" fill="#e6edf3">1.4%</text>
+      <text x="18" y="14" font-size="10.5" fill="#8b949e">C# · Ruby</text>
+    </g></g>
+  <g transform="translate(274, 157)"><g class="row" style="animation-delay:0.42s">
+      <rect width="10" height="10" rx="3" y="-9" fill="#f74c00"/>
+      <text x="18" y="0" font-size="12.5" font-weight="600" fill="#c9d1d9">Systems</text>
+      <text x="242" y="0" text-anchor="end" font-size="12.5" font-weight="600" fill="#e6edf3">0.4%</text>
+      <text x="18" y="14" font-size="10.5" fill="#8b949e">C++ · CMake · C · GLSL</text>
+    </g></g>
+  <g transform="translate(274, 195)"><g class="row" style="animation-delay:0.51s">
+      <rect width="10" height="10" rx="3" y="-9" fill="#6e7681"/>
+      <text x="18" y="0" font-size="12.5" font-weight="600" fill="#c9d1d9">Other</text>
+      <text x="242" y="0" text-anchor="end" font-size="12.5" font-weight="600" fill="#e6edf3">0.0%</text>
+      <text x="18" y="14" font-size="10.5" fill="#8b949e">XSLT</text>
+    </g></g>
 </svg>
