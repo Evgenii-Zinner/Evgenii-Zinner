@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Generate top-langs.svg
-        uses: Evgenii-Zinner/ez-profile-lang-graphs@v1
+        uses: Evgenii-Zinner/ez-profile-lang-graphs@41097bd98c83acb42ab7c5d95545c150c2c0a47c
         with:
           username: ${{ github.repository_owner }}
           token: ${{ secrets.GH_STATS_TOKEN || secrets.GITHUB_TOKEN }}
@@ -23,6 +23,8 @@ jobs:
           theme: dark
           hide_border: true
           include_private: true
+          domains: Backend,Mobile,Web
+          legend: languages
           output: top-langs.svg
 
       - name: Commit updated SVG if changed
